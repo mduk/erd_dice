@@ -1,0 +1,14 @@
+{application, erd_dice, [
+	{description, ""},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib,
+    resource_discovery
+	]},
+	{mod, {erd_dice_app, []}},
+	{env, []}
+]}.
